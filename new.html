@@ -12,23 +12,45 @@
 <body>
     <header>
         <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#home" tabindex="1">Home</a></li>
+            <li><a href="#about" tabindex="2">About</a></li>
+            <li><a href="#contact" tabindex="3">Contact</a></li>
         </ul>
     </header>
 
     <div id="home">
-
+        <h2>Welcome to madein:march</h2>
+        <p>Discover the latest fashion trends and express your style with our unique...</p>
+        <img src="https://www.glassons.com/content/products/o-billie-boyfriend-oversized-hoodie-on-the-rocks-front-tl102294ocot.jpg"
+            alt="Photo of one of our models showcasing our hoodie.">
     </div>
 
     <div id="about">
-
+        <h2>About Us</h2>
+        <p>madein:march is a fashion-forward clothing line dedicated to providing high-quality,...</p>
     </div>
 
     <div id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or feedback? We'd love to hear from you!</p>
 
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <input id="message" name="message" rows="5" required>
+
+            <input type="submit" value="Submit">
+        </form>
     </div>
+
+    <footer>
+        <p>&copy; 2024 madein:march. All rights reserved.</p>
+    </footer>
 
 </body>
 
